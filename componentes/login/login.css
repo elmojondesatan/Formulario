@@ -1,51 +1,128 @@
-.box_login{
+.box-login {
     width: 100%;
     max-width: 120rem;
-    height: 80rem;
+    height: 60rem;
+    border: 1px solid black;
     margin: auto;
-    margin-top: 5%;
-    border: 1px solid black;
+    margin-top: 4.5%;
 
     display: grid;
-    grid-template-columns: 75rem auto;
+    grid-template-columns: 60rem auto;
 }
 
-.box_login .formulario{
+.box-login .Formulario {
     height: 100%;
-    padding: 10rem 15rem;
+    padding: 10rem 12rem;
+    gap: 1rem;
 
     display: grid;
-    grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(8,1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8);
 }
 
-.box_login .log{
+.box-login .logo {
     grid-column: 1/9;
+    font-size: 1.5rem;
 }
 
-.box_login h2{
+.box-login h2 {
     grid-column: 1/9;
+    color: black;
+    font-family: cursive;
 }
 
-.box_login .btn_face{
+.box-login .btn-facebook {
+    width: 20.5rem;
+    height: 3rem;
     grid-column: 1/4;
-    width: 100px;
-    height: 30px;
-    border: 1px solid black;
-    background-color: rgb(72, 72, 173);
+    background-color: rgb(74, 74, 192);
     color: white;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.box_login .btn_xing{
+
+.box-login .btn-xing {
+    width: 20rem;
     grid-column: 5/8;
-    width: 100px;
-    height: 20px;
     border: 1px solid black;
-    background-color: rgb(46, 46, 56);
+    height: 3rem;
+    background-color: black;
     color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.box_login span{
+
+
+.box-login span {
     grid-column: 1/9;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+   grid-column: 1/9;
+}
+
+#login label {
+    display: flex;
+    flex-direction: column;
+}
+
+#login input {
+    height: 4rem;
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+    color: black;
+    font-weight: 600;
+    border-bottom: 2px solid rebeccapurple;
+}
+
+#login .opciones span {
+    color: black;
+}
+
+#login .opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#login .opciones label {
+    font-size: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#login .opciones label input {
+    width: 2rem;
+}
+
+#login .botones button {
+    width: 15.5rem;
+    height: 3.7rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#login .botones .b1 {
+    color: black;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+#login .botones .b2 {
+    background-color: gray;
+    color: white;
 }
