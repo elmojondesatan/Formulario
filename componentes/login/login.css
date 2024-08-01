@@ -5,7 +5,6 @@
     border: 1px solid black;
     margin: auto;
     margin-top: 4.5%;
-
     display: grid;
     grid-template-columns: 60rem auto;
 }
@@ -105,7 +104,15 @@
     flex-direction: row;
     align-items: center;
 }
-
+.xxx{
+    width: 10rem;
+    height: 15rem;
+    grid-column: 1/13
+}
+.mg1{
+    width: 60rem;
+    height: 60rem;
+}
 #login .opciones label input {
     width: 2rem;
 }
