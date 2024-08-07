@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: radial-gradient(circle at 50% -20.71%, #ff57d2 0, #ff4edb 12.5%, #f046e3 25%, #d63feb 37.5%, #b53cf2 50%, #8c3df9 62.5%, #4f40ff 75%, #0046ff 87.5%, #004bff 100%);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.search-bar {
+    width: 60%;
+    margin: 20px 0;
+}
+.search-bar h1{
+    font-size: 5.5rem;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.speed-dial {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    width: 80%;
+}
+.dial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.dial img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.layered-image {
+    background: linear-gradient(to right, transparent, mistyrose),
+      url("critters.png");
+  }
